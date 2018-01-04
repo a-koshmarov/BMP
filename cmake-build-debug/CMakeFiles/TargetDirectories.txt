@@ -1,0 +1,3 @@
+C:/Programming/C_Projects/BMP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Programming/C_Projects/BMP/cmake-build-debug/CMakeFiles/Ser.dir
+C:/Programming/C_Projects/BMP/cmake-build-debug/CMakeFiles/edit_cache.dir
