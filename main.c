@@ -9,8 +9,10 @@ void BmpToGrey(char *filename) {
     double avg;
     int padding = 0;
 
+// Открываем файл и проверяем его наличие
     FILE *infile;
     infile = fopen(filename, "rb");
+    
     if (infile == NULL) {
         printf("No such file\n");
         return;
@@ -21,13 +23,13 @@ void BmpToGrey(char *filename) {
 // Считываем header файла
     fread(header, sizeof(unsigned char), 54, infile);
 
-// Берем размеры из header'a
+// Берем размеры картинки из header'a
     width = *(int *) &header[18];
     height = *(int *) &header[22];
 //    printf("%d\n", height);
 
 
-// Отсутп в конце каждой строки
+// Находим отсутп в конце каждой строки
     while ((width * 3 + padding) % 4 != 0) {
         padding++;
     }
@@ -71,7 +73,6 @@ void BmpToGrey(char *filename) {
     fclose(infile);
     fclose(outfile);
     free(data);
-
 }
 
 int main() {
