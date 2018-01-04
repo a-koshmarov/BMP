@@ -75,6 +75,6 @@ void BmpToGrey(char *filename) {
 }
 
 int main() {
-    BmpToGrey("f.bmp");
+    BmpToGrey("input.bmp");
     return 0;
 }
