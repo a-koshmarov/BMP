@@ -1,4 +1,8 @@
 # BMP
 **University project**
 
-Исполняемый файл, входной и выходной bmp файлы находятся в cmake-build-debug.
+BMP.exe - исполняемый файл
+input.bmp - входная картинка
+img.bmp - монохромная картинка
+
+cmake-build-debug - файлы Clion
