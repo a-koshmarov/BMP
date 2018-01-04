@@ -12,57 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87e806a8-40a6-4912-8103-e0d708502c4e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/Ser.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/1.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeRCCompiler.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/C.includecache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/DependInfo.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/build.make" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/cmake_clean.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/depend.internal" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/depend.make" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/flags.make" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/link.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/linklibs.rsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/main.c.obj" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/objects.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/objects1.rsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Ser.dir/progress.make" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/Ser.cbp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/f.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmake-build-debug/img.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main.c" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/1.bmp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-mingw/" />
@@ -242,12 +193,12 @@
       <workItem from="1514580578266" duration="140000" />
       <workItem from="1514895954425" duration="727000" />
       <workItem from="1514900109818" duration="16924000" />
-      <workItem from="1515096993395" duration="1057000" />
+      <workItem from="1515096993395" duration="1303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19377000" />
+    <option name="totallyTimeSpent" value="19623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
