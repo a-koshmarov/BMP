@@ -2,8 +2,8 @@
 ## University project
 
 * BMP.exe - исполняемый файл
-* input.bmp - входная картинка
-* img.bmp - монохромная картинка
+* input.bmp - оригинальное изображение
+* img.bmp - монохромное изображение
 * cmake-build-debug - файлы Clion
 
 ## Пример работы
