@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Programming/C_Projects/BMP/bmp.h">
+			<Option target="Ser"/>
+		</Unit>
 		<Unit filename="C:/Programming/C_Projects/BMP/main.c">
 			<Option target="Ser"/>
 		</Unit>

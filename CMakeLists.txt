@@ -3,5 +3,5 @@ project(Ser)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES main.c)
+set(SOURCE_FILES main.c bmp.h)
 add_executable(Ser ${SOURCE_FILES})
