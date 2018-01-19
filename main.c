@@ -14,7 +14,7 @@ void readFileHeader(FILE *f, bitMapFileHeader *bmpFh) {
     fread(&bmpFh->bfOffBits, 4, 1, f);
 }
 
-//Считывает InfoHeader
+//Считывает InfoHeader 
 void readInfoHeader(FILE *f, bitMapInfoHeader *bmpIh) {
     fread(&bmpIh->biSize, 4, 1, f);
     fread(&bmpIh->biWidth, 4, 1, f);
