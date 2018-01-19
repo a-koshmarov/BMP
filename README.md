@@ -1,9 +1,8 @@
-# BMP
-## University project
+# BitMap to monochrome
+## University project - 1 term
 
-* BMP.exe - исполняемый файл
-* input.bmp - оригинальное изображение
-* img.bmp - монохромное изображение
+* input.bmp - default input file
+* output.bmp - default putput file
 * cmake-build-debug - файлы Clion
 
 ## Пример работы
