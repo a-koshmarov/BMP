@@ -9,4 +9,4 @@
 #### *Input*
 ![input](input.bmp)
 #### *Output*
-![output](img.bmp)
+![output](output.bmp)
