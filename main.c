@@ -33,7 +33,6 @@ void readInfoHeader(FILE *f, bitMapInfoHeader *bmpIh) {
 void readPaletteArray(FILE **f, bitMapInfoHeader *bmpIh, pxl *plt, pxl ***pxA) {
 //    Отступ для 8-битного bmp
     int padding = (3 * bmpIh->biWidth) % 4;
-    int newWidth = bmpIh->biWidth;
     BYTE bytePxl;
 
 //    Отступ для 4, 2, 1-битных bmp
@@ -41,16 +40,11 @@ void readPaletteArray(FILE **f, bitMapInfoHeader *bmpIh, pxl *plt, pxl ***pxA) {
         padding = (3 * ((bmpIh->biWidth & 1) == 0 ? bmpIh->biWidth : bmpIh->biWidth + 1) / 2) % 4;
     } else if (bmpIh->biBitCount == 2) {
 //        newWidth = bmpIh->biWidth;
-        while (newWidth % 4 != 0) {
-            newWidth++;
-        }
-        padding = (3 * (newWidth / 4)) % 4;
+//        Округляет кол-во пикселей вверх до числа, кратного кол-ву бит, которе занимает 1 пиксель
+//        и делит на кол-во пикселей в одном байте
+        padding = (3 * (bmpIh->biWidth + (4 - bmpIh->biWidth % 4)) / 4) % 4;
     } else if (bmpIh->biBitCount == 1) {
-
-        while (newWidth % 8 != 0) {
-            newWidth++;
-        }
-        padding = (3 * (newWidth / 8)) % 4;
+        padding = (3 * (bmpIh->biWidth + (8 - bmpIh->biWidth % 8)) / 8) % 4;
     }
 
 //    Считывает файл побитово и в зависимости от формата bmp
