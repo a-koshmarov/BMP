@@ -41,10 +41,7 @@ void readPaletteArray(FILE **f, bitMapInfoHeader *bmpIh, pxl *plt, pxl ***pxA) {
         padding = (3 * ((bmpIh->biWidth & 1) == 0 ? bmpIh->biWidth : bmpIh->biWidth + 1) / 2) % 4;
     } else if (bmpIh->biBitCount == 2) {
 //        newWidth = bmpIh->biWidth;
-        while (newWidth % 4 != 0) {
-            newWidth++;
-        }
-        padding = (3 * (newWidth / 4)) % 4;
+        padding = (3 * (bmpIh->biWidth + (8 - bmpIh->biWidth % 8)) / 4) % 4;
     } else if (bmpIh->biBitCount == 1) {
 
         while (newWidth % 8 != 0) {

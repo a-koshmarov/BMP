@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Programming/C_Projects/BMP/main.c
+C:/Programming/C_Projects/BMP/bmp.h
 stdio.h
 -
-malloc.h
+
+C:/Programming/C_Projects/BMP/main.c
+stdlib.h
 -
-math.h
+stdio.h
 -
+string.h
+-
+bmp.h
+C:/Programming/C_Projects/BMP/bmp.h
 
